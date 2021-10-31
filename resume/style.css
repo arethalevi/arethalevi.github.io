@@ -8,8 +8,9 @@
 
 /* bio */
 .bio {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 100px;
+  background-image: url(img/bg.jpg);
+  background-size: cover;
 }
 .bio h5 {
   padding-top: 0.5rem;
@@ -19,25 +20,19 @@
 .heading {
   text-align: center;
   font-weight: 800;
-  padding-top: 6rem;
   font-size: 2.8rem;
 }
 
+/*  */
+
 /* education */
 .education {
-  background: #f8f5eb;
-  min-height: 100vh;
+  background: white;
+  min-height: 70vh;
 }
 
 .education .heading span {
   font-weight: 800;
-}
-.education .quote {
-  font-size: 1.3rem;
-  text-align: center;
-  font-weight: 600;
-  margin-top: 0.5rem;
-  padding: 0 2rem;
 }
 .education .box-container {
   display: flex;
@@ -45,7 +40,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 6rem;
 }
 .education .box-container .box {
   display: flex;
@@ -99,7 +93,7 @@
 }
 .education h4 {
   font-size: 1.4rem;
-  color: rgb(34, 109, 0);
+  color: #f0c961;
   text-align: left;
   margin-left: 1rem;
   font-family: "Nunito", sans-serif;
@@ -131,18 +125,14 @@
 
 /* skills */
 .skills {
-  background-color: #f0c58e;
-}
-.skills .container {
-  padding-top: 2rem;
-  padding-bottom: 5.5rem;
+  background-color: #fdefe6;
 }
 .skills .container h1 {
   font-size: 2rem;
 }
 .que {
   padding: 1rem 0 1rem 0;
-  background-color: #f1f1f1;
+  background-color: #fff;
   margin: 1rem 1rem 1rem 1rem;
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
@@ -165,9 +155,7 @@
 }
 
 /* experience */
-.experience {
-  padding-bottom: 4rem;
-}
+
 .experience .timeline {
   position: relative;
   max-width: 1200px;
@@ -185,7 +173,7 @@
   z-index: -2;
 }
 .experience .kotak {
-  padding: 10px 50px;
+  padding: 0px 50px;
   position: relative;
   background-color: inherit;
   width: 50%;
@@ -292,13 +280,14 @@
 
 /* achievements */
 .ach {
-  background-color: #f5e1d1;
+  background-color: #fdd7d6;
 }
 .ach .row {
   padding-bottom: 4rem;
 }
 .card {
   margin-bottom: 2rem;
+  border-radius: 14px;
   width: 95%;
   margin-left: auto;
   margin-right: auto;
@@ -322,8 +311,18 @@
   font-size: large;
 }
 
+.cont {
+  float: right;
+  margin-bottom: 20px;
+}
+
+.kir {
+  float: left;
+  padding-top: 10px;
+  padding-left: 8px;
+}
 .port {
-  background-color: peru;
+  background-color: #f0c961;
 }
 
 .port:hover {

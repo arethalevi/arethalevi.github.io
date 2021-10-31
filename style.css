@@ -1,55 +1,45 @@
 * {
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 /* top */
 .top {
-  position: relative;
   height: 100vh;
   width: 100%;
-  display: flex;
   justify-content: center;
   align-items: center;
-}
-.top::before {
-  content: "";
-  background-image: url(img/bg.jpeg);
+  display: flex;
+  background-image: url(img/bg.jpg);
   background-size: cover;
   background-position: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  opacity: 0.4;
 }
 
-.top h1 {
-  position: relative;
-  font-size: 4rem;
+.tulisan {
   text-align: center;
-  font-weight: 700;
-  color: #a27357;
-  padding-bottom: 8rem;
+  padding-bottom: 7rem;
 }
 
-#nh {
-  padding-top: 220px;
-  padding-bottom: 130px;
-  background-image: url(img/3.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 725px;
+/* about */
+#about {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f4e8de;
 }
 
-h1.hi {
-  font-size: 5rem;
-  font-weight: 700;
-  line-height: 4rem;
-  color: #642b0c;
+/* font */
+.dans {
+  font-family: "Dancing Script";
 }
 
+.play {
+  font-family: "Playfair Display";
+  letter-spacing: 0.5px;
+  color: #b57045;
+}
+
+/* port: biolink */
 .port {
   background-color: peru;
 }
@@ -58,45 +48,63 @@ h1.hi {
   background-color: rgb(165, 82, 0);
 }
 
-#about {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: white;
-}
-
+/* projects */
 #projects {
   padding: 120px 20px 90px 20px;
-  background-color: #e9d0bb;
+  background-color: #fff;
 }
 
-.gols:hover {
-  color: black;
-}
-
-.gols:active {
-  color: black;
+.click {
+  background-color: #f4e8de;
+  color: #b57045;
+  letter-spacing: 1.5px;
+  font-size: 1rem;
 }
 
 .card-title {
   font-weight: 700;
 }
 
+/* contact */
 #contact {
   padding-top: 120px;
   padding-bottom: 120px;
   background-color: #fff7ef;
 }
 
+/* footer */
 .foot {
-  background-color: white;
+  background-color: #b57045;
   border-top: 2px solid rgb(211, 211, 211);
 }
 
 .foot p {
-  color: rgb(0, 0, 0);
-  font-size: large;
+  color: white;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  padding-top: 0.4rem;
 }
 
 h2 {
   font-size: 3rem;
+}
+
+/* extra */
+.gols {
+  font-family: "Montserrat";
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+}
+.gols:hover {
+  color: #b57045;
+}
+
+.gols:active {
+  color: black;
+}
+
+.cols {
+  font-family: "Playfair Display";
+  letter-spacing: 1px;
+  color: #b57045;
 }
