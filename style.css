@@ -3,6 +3,37 @@
   font-weight: 600;
 }
 
+/* top */
+.top {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top::before {
+  content: "";
+  background-image: url(img/bg.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.4;
+}
+
+.top h1 {
+  position: relative;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 700;
+  color: #a27357;
+  padding-bottom: 8rem;
+}
+
 #nh {
   padding-top: 220px;
   padding-bottom: 130px;

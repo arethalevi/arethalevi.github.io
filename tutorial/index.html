@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Pages Tutorial</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="main-header">
+      <h1>Tutorial membuat github pages melalui git.</h1>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <img src="img/1.png" alt="" />
+        <div>
+          <h3>1. Membuat repository di github</h3>
+          <p>Buatlah repository di github dengan nama username anda.github.io, misal arethalevi.github.io</p>
+        </div>
+      </section>
+      <section class="card">
+        <img src="img/2.png" alt="" />
+        <div>
+          <h3>2. Membuat repository lokal</h3>
+          <p>
+            Buka terminal (untuk Mac) atau git bash (untuk Windows), pergi ke direktori file yang mau di push ke github menggunakan cd. Disini nama file yang mau saya unggah adalah porto. Lalu, ketik git init untuk membuat repository di
+            file porto
+          </p>
+        </div>
+      </section>
+      <section class="card">
+        <img src="img/3.jpg" alt="" />
+        <div>
+          <h3>3. Menambahkan isi file lalu commit</h3>
+          <p>Ketikkan git add . untuk memasukkan semua file ke repository, lalu gunakan git commit -m untuk mengcommit file.</p>
+        </div>
+      </section>
+      <section class="card">
+        <img src="img/4.jpg" alt="" />
+        <div>
+          <h3>4. Mempush file repository lokal ke github</h3>
+          <p>
+            Ketik git remote add origin, lalu diikuti dengan link github yang sudah dibuat di langkah pertama. Lalu untuk mempush gunakan git push -u origin. Nanti akan diminta untuk memasukkan username dan password. Untuk username bisa
+            ketikkan username github, lalu untuk password, isi dengan token. Untuk mendapatkan token dijelaskan di langkah 5
+          </p>
+        </div>
+      </section>
+      <section class="card">
+        <img src="img/5.png" alt="" />
+        <div>
+          <h3>5. Mendapatkan token github</h3>
+          <p>
+            Pada home github, klik gambar profile, pilih Settings, lalu pilih menu Developer Settings, lalu pilih menu Personal access tokens. Setelah itu, klik generate new token (jika anda belum membuat token), centang bagian repo, dan
+            generate token. Nanti akan muncul token, copy saja lalu paste sebagai Password.
+          </p>
+        </div>
+      </section>
+      <section class="card">
+        <img src="img/6.png" alt="" />
+        <div>
+          <h3>6. File berhasil terpush di github</h3>
+          <p>Setelah memasukkan password, file dari porto sudah ada di github.</p>
+        </div>
+      </section>
+      <section class="card">
+        <img src="img/7.png" alt="" />
+        <div>
+          <h3>7. Github pages langsung aktif.</h3>
+          <p>
+            Anda bisa mencoba masukkan di browser anda username.github.io (misal arethalevi.github.io), anda bisa langsung melihat halaman yang sudah anda buat.
+            <br />
+            Ps: halaman akan lansung muncul bila di dalam file porto, sudah ada file html bernama index.html
+          </p>
+        </div>
+      </section>
+      <section class="last">
+        <h3>Dibawah ini adalah laporan UTS, bisa langsung di download PDFnya.</h3>
+        <center><a href="#" class="pdf">Download PDF</a></center>
+      </section>
+    </main>
+  </body>
+</html>
