@@ -314,6 +314,7 @@
 .cont {
   float: right;
   margin-bottom: 20px;
+  text-align: end;
 }
 
 .kir {
@@ -327,4 +328,15 @@
 
 .port:hover {
   background-color: rgb(165, 82, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .cont {
+    float: none;
+    text-align: center;
+  }
+  .kir {
+    float: none;
+    text-align: center;
+  }
 }
