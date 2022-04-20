@@ -48,6 +48,13 @@
   background-color: rgb(165, 82, 0);
 }
 
+.part{
+  background-color: peru;
+}
+.part:hover{
+  background-color: rgb(165, 82, 0);
+}
+
 /* projects */
 #projects {
   padding: 120px 20px 90px 20px;
